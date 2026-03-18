@@ -10,5 +10,5 @@ const PORT = process.env.PORT || 3005
 app.use('/', appRouter)
 
 app.listen(PORT, ()=>{
- console.log(`Server running on port http://localhost:PORT`)
+ console.log(`Server running on port http://localhost:${PORT}`)
 })

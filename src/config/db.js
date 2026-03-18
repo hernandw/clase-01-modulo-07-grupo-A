@@ -23,3 +23,4 @@ const pool = new Pool(config);
 getDate();
  */
 
+export default pool
